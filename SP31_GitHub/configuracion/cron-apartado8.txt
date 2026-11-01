@@ -1,0 +1,2 @@
+# En el crontab de root (sudo crontab -e):
+0 22 * * 0 /scralex/diferencial.sh

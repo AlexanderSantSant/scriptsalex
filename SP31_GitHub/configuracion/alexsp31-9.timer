@@ -1,0 +1,10 @@
+[Unit]
+Description=Sincronizacion diaria a las 22:00
+
+[Timer]
+OnCalendar=*-*-* 22:00:00
+Persistent=true
+Unit=alexsp31-9.service
+
+[Install]
+WantedBy=timers.target

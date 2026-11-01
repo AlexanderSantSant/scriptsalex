@@ -1,0 +1,3 @@
+# Anadir a /etc/anacrontab (sin borrar las lineas existentes):
+30 10 total-alex /scralex/total.sh
+30 15 limpieza-alex /scralex/limpieza.sh

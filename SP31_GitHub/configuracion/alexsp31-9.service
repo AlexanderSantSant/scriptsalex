@@ -1,0 +1,7 @@
+[Unit]
+Description=Copia espejo del directorio personal
+
+[Service]
+Type=oneshot
+ExecStart=/scralex/alexsp31-9.sh
+User=root
