@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# head toma las 10 primeras y tail conserva las 6 últimas. sed selecciona directamente el rango.
-echo "Con head y tail"
-head -n 10 /etc/passwd | tail -n +5
-echo "Con sed"
+head -10 /etc/passwd | tail -6
+echo "Otra forma:"
 sed -n '5,10p' /etc/passwd
